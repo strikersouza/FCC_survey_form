@@ -27,3 +27,7 @@ header{
     letter-spacing: 1px;
     padding-bottom: 15px;
 }
+
+.improvements label{
+    display: block;
+}
