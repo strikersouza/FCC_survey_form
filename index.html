@@ -13,18 +13,27 @@
         <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
     </header>
     <form>
-        <label for="name">
+        <label for="name" id="name-label">
             <p>Name</p>
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
         </label>
-        <label for="email">
+        <label for="email" id="email-label">
             <p>Email</p>
             <input type="email" name="email" id="email" placeholder="Enter your Email" required>
         </label>
-        <label for="email">
+        <label for="number" id="number-label">
             <p>Age (optional)</p>
-            <input type="number" name="age" id="age" placeholder="Age" min="10" max="100">
+            <input type="number" name="age" id="number" placeholder="Age" min="10" max="100" required>
         </label>
+        <label for="role" id="role-label"><p>Which option best describes your current role?</p></label>
+        <select id="role">
+            <option value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-job">Full Time Job</option>
+            <option value="full-learner">Full Time Learner</option>
+            <option value="not-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
     </form>
 </body>
 </html>
