@@ -28,6 +28,21 @@ header{
     padding-bottom: 15px;
 }
 
-.improvements label, textarea{
+label, legend{
+    color: white;
+}
+
+form{
+    max-width: 700px;
+    background-color: #282848;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+fieldset{
+    border: none;
+}
+
+.improvements label {
     display: block;
 }
